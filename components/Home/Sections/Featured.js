@@ -13,7 +13,6 @@ export default function Featured() {
         <div className='relative h-[200px] sm:h-[355px] lg:h-[400px] w-[870px]'>
           <Image
             src='/covington.jpg'
-            alt='me'
             alt='Poster for UFC 272 Covington vs Masvidal'
             layout='fill'
             objectFit='cover'
