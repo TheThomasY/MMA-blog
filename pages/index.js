@@ -16,7 +16,7 @@ export default function Home() {
       <Navbar />
       {/* Home Page Content */}
       <div className='w-4/5 mx-auto'>
-        {/* <Featured /> */}
+        <Featured />
         <Latest />
       </div>
       <footer>
