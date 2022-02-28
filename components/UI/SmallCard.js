@@ -13,11 +13,11 @@ export default function SmallCard(props) {
           className='object-cover object-top w-full h-24 rounded-lg md:h-32 lg:h-44'
         />
       </div>
-      <div className='py-3'>
-        <h2 className='mb-2 font-bold tracking-tight text-gray-900'>
+      <div className=''>
+        <h2 className='mt-2 font-bold'>
           Fighter 1 vs Fighter 2 Lorem, ipsum dolor.
         </h2>
-        <p className='text-xs'>1 hour ago</p>
+        <p className='mt-4 text-xs text-gray-500'>1 hour ago</p>
       </div>
     </div>
   );
