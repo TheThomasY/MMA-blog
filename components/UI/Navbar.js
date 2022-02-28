@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import { AiOutlineMenu } from 'react-icons/ai';
 
 export default function Navbar() {
-  const [showNav, setShowNav] = useState(true);
+  const [showNav, setShowNav] = useState(false);
 
   const toggleNav = () => {
     setShowNav((prevShowNav) => {
